@@ -11,70 +11,100 @@
         <hr>
         <nav>
             <ul>
-                <li><a href="" target="_self">About LTS</a></li>
-                <li><a href="" target="_self">Our Menu</a></li>
-                <li><a href="hours.html" target="_blank">Store hours</a></li>
-                <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                <li>
+                    <a href="#about">About <abbr title="The Little Taco shop">LTS</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
             </ul>
-            <img src="images/tacos_and_drink_400x267.png" alt="tacos and soda">
-            <figcaption>Tacos and a Drink</figcaption>
         </nav>
+        <figure>
+            <img src="images/tacos_and_drink_400x267.png" alt="tacos and soda" title="We love tacos!" width="400" height="267">
+            <figcaption>Tacos and a Drink</figcaption>
+        </figure>
         <hr>
     </header>
+
     <main>
-    <article>
-        <h2 href="" target="-self">About LTS</h2>
-        <p>LTS was founded in 2022, 0ur shop was built from love of tarcos🌮🌮🌮. 
-        We hope our shope adds a unique and interesting place to ur little town.</p>
-    </article>
+        <article id="about">
+            <h2><abbr title="The little Taco Shop">About LTS</abbr></h2>
+            <p>
+                <abbr title="The little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>.
+                <strong>Our shop was built from love of tarcos 🌮🌮🌮.</strong>
+                We hope our shope adds a unique and interesting place to ur little town.
+            </p>
+        </article>
     </main>
+
     <aside>
-        <h2>Taco Trivia</h2>
+        <h3>Taco Trivia</h3>
         <details>
             <summary>When did tacos first appear in the United States?</summary>
-            <p>Tacos first appeared in the United States in the early 20th century, around the 1910s. 
+            <p>
+                Tacos first appeared in the United States in the early 20th century, around the 1910s.
                 They were introduced by Mexican immigrants, particularly in the Southwestern states like Texas and California.
-                The first known mention of the word "taco" in the U.S. press was in 1905, in a newspaper article about Mexican food in Los Angeles. 
-                Tacos gained wider popularity as Mexican street food culture spread, especially during the Mexican Revolution (1910–1920), when many people immigrated to the U.S.Over time, tacos were adapted to American tastes, leading to the creation of hard-shell tacos in the 1940s and the rise of fast-food taco chains like Taco Bell, 
-                founded in 1962.</p>
+                The first known mention of the word "taco" in the U.S. press was in 1905, in a newspaper article about Mexican food in Los Angeles.
+                Tacos gained wider popularity as Mexican street food culture spread, especially during the Mexican Revolution (1910–1920), 
+                when many people immigrated to the U.S. Over time, tacos were adapted to American tastes, 
+                leading to the creation of hard-shell tacos in the 1940s and the rise of fast-food taco chains like Taco Bell, 
+                founded in 1962. (source:
+                <cite>
+                    <a href="https://www.twistedtaco.com/the-history-of-the-taco#:~:text=Coming%20to%20America,unfamiliar%20to%20the%20American%20palate." target="_blank">
+                        Twisted Taco
+                    </a>
+                </cite>)
+            </p>
         </details>
     </aside>
+
     <hr>
-    <article>
-        <h2 >Our  Menu</h2>
+
+    <article id="menu">
+        <h2>Our Menu</h2>
         <table border="1">
-         <caption aria-rowspan="2">Our Tacos</caption>
+            <caption>Our Tacos</caption>
             <thead>
-               <tr>
-                <th>Tacos</th>
-                 <th>Qty</th>
-                  <th>Price</th>
-               </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                    <td colspan="1">Crunchy</td>
+                <tr>
+                    <th>Tacos</th>
+                    <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Crunchy</td>
                     <td>1<br>2<br>3</td>
                     <td>$1.50<br>$2.50<br>$3.25</td>
-                  </tr>
-                  <tr>
-                     <td colspan="1">Soft</td>
-                     <td>1<br>2<br>3</td>
-                      <td>$2.00<br>$3.50<br>$4.50</td>
-                  </tr>
-                  </tbody>
+                </tr>
+                <tr>
+                    <td>Soft</td>
+                    <td>1<br>2<br>3</td>
+                    <td>$2.00<br>$3.50<br>$4.50</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Chips &amp; Salsa $2</td>
+                </tr>
+            </tfoot>
         </table>
-          <tfoot aria-rowspan="2">Chips $ salsa $2</tfoot>
 
-          <p>
-            <a href="" target="_top">Back to Top</a>
-          </p>
-
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
     </article>
+
     <hr>
+
     <footer>
-        Copyright @ The Little Taco Shop
+        <p>Copyright &copy; The Little Taco Shop</p>
     </footer>
-    
 </body>
 </html>
